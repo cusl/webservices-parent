@@ -4,6 +4,7 @@ public class MovieDto {
     public String name;
     public String producer;
     public int year;
+
     public MovieDto() {
     }
 
@@ -18,4 +19,5 @@ public class MovieDto {
     public String toString() {
         return "MovieDto [name=" + name + ", producer=" + producer + ", year=" + year + "]";
     }
+
 }
