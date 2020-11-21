@@ -6,7 +6,7 @@ import java.util.List;
 
 
 public interface MoviesService {
-    boolean addMovie(MovieDto movieDto);
+    void addMovie(MovieDto movieDto);
 
     MovieDto getMovie(String name);
 
@@ -14,11 +14,11 @@ public interface MoviesService {
 
     List<MovieDto> getMoviesYears(int yearFrom, int yearTo);
 
-    boolean deleteMovie(String name);
+    void deleteMovie(String name);
 
     List<MovieDto> getMovies();
 
-    boolean addCinema(CinemaDto cinemaDto);
+    void addCinema(CinemaDto cinemaDto);
 
     void addWatch(WatchDto watchDto);
 
